@@ -14,19 +14,13 @@
 		98A5E6782C218D2A00078A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A5E6772C218D2A00078A5B /* Assets.xcassets */; };
 		98A5E67B2C218D2A00078A5B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 98A5E67A2C218D2A00078A5B /* Base */; };
 		98A5E6862C218D2A00078A5B /* BJ4PracticesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E6852C218D2A00078A5B /* BJ4PracticesTests.swift */; };
-		98A5E6902C218D2A00078A5B /* BJ4PracticesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E68F2C218D2A00078A5B /* BJ4PracticesUITests.swift */; };
-		98A5E6922C218D2A00078A5B /* BJ4PracticesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E6912C218D2A00078A5B /* BJ4PracticesUITestsLaunchTests.swift */; };
+		98A5E69F2C218DEB00078A5B /* aaa.json in Resources */ = {isa = PBXBuildFile; fileRef = 98A5E69E2C218DEB00078A5B /* aaa.json */; };
+		98A5E6A22C2192EF00078A5B /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 98A5E6A12C2192EF00078A5B /* SwiftyJSON */; };
+		98A5E6A42C21946100078A5B /* BaseJson4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E6A32C21946100078A5B /* BaseJson4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		98A5E6822C218D2A00078A5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 98A5E6632C218D2900078A5B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A5E66A2C218D2900078A5B;
-			remoteInfo = BJ4Practices;
-		};
-		98A5E68C2C218D2A00078A5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 98A5E6632C218D2900078A5B /* Project object */;
 			proxyType = 1;
@@ -46,9 +40,8 @@
 		98A5E67C2C218D2A00078A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98A5E6812C218D2A00078A5B /* BJ4PracticesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJ4PracticesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A5E6852C218D2A00078A5B /* BJ4PracticesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJ4PracticesTests.swift; sourceTree = "<group>"; };
-		98A5E68B2C218D2A00078A5B /* BJ4PracticesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJ4PracticesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98A5E68F2C218D2A00078A5B /* BJ4PracticesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJ4PracticesUITests.swift; sourceTree = "<group>"; };
-		98A5E6912C218D2A00078A5B /* BJ4PracticesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJ4PracticesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98A5E69E2C218DEB00078A5B /* aaa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aaa.json; sourceTree = "<group>"; };
+		98A5E6A32C21946100078A5B /* BaseJson4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseJson4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98A5E6882C218D2A00078A5B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				98A5E6A22C2192EF00078A5B /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +68,6 @@
 			children = (
 				98A5E66D2C218D2900078A5B /* BJ4Practices */,
 				98A5E6842C218D2A00078A5B /* BJ4PracticesTests */,
-				98A5E68E2C218D2A00078A5B /* BJ4PracticesUITests */,
 				98A5E66C2C218D2900078A5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +77,6 @@
 			children = (
 				98A5E66B2C218D2900078A5B /* BJ4Practices.app */,
 				98A5E6812C218D2A00078A5B /* BJ4PracticesTests.xctest */,
-				98A5E68B2C218D2A00078A5B /* BJ4PracticesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,17 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				98A5E6852C218D2A00078A5B /* BJ4PracticesTests.swift */,
+				98A5E69E2C218DEB00078A5B /* aaa.json */,
+				98A5E6A32C21946100078A5B /* BaseJson4.swift */,
 			);
 			path = BJ4PracticesTests;
-			sourceTree = "<group>";
-		};
-		98A5E68E2C218D2A00078A5B /* BJ4PracticesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				98A5E68F2C218D2A00078A5B /* BJ4PracticesUITests.swift */,
-				98A5E6912C218D2A00078A5B /* BJ4PracticesUITestsLaunchTests.swift */,
-			);
-			path = BJ4PracticesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,27 +139,12 @@
 				98A5E6832C218D2A00078A5B /* PBXTargetDependency */,
 			);
 			name = BJ4PracticesTests;
+			packageProductDependencies = (
+				98A5E6A12C2192EF00078A5B /* SwiftyJSON */,
+			);
 			productName = BJ4PracticesTests;
 			productReference = 98A5E6812C218D2A00078A5B /* BJ4PracticesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		98A5E68A2C218D2A00078A5B /* BJ4PracticesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98A5E69B2C218D2A00078A5B /* Build configuration list for PBXNativeTarget "BJ4PracticesUITests" */;
-			buildPhases = (
-				98A5E6872C218D2A00078A5B /* Sources */,
-				98A5E6882C218D2A00078A5B /* Frameworks */,
-				98A5E6892C218D2A00078A5B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				98A5E68D2C218D2A00078A5B /* PBXTargetDependency */,
-			);
-			name = BJ4PracticesUITests;
-			productName = BJ4PracticesUITests;
-			productReference = 98A5E68B2C218D2A00078A5B /* BJ4PracticesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,10 +163,6 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 98A5E66A2C218D2900078A5B;
 					};
-					98A5E68A2C218D2A00078A5B = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 98A5E66A2C218D2900078A5B;
-					};
 				};
 			};
 			buildConfigurationList = 98A5E6662C218D2900078A5B /* Build configuration list for PBXProject "BJ4Practices" */;
@@ -215,13 +174,15 @@
 				Base,
 			);
 			mainGroup = 98A5E6622C218D2900078A5B;
+			packageReferences = (
+				98A5E6A02C2192EF00078A5B /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 98A5E66C2C218D2900078A5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98A5E66A2C218D2900078A5B /* BJ4Practices */,
 				98A5E6802C218D2A00078A5B /* BJ4PracticesTests */,
-				98A5E68A2C218D2A00078A5B /* BJ4PracticesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,13 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98A5E6892C218D2A00078A5B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				98A5E69F2C218DEB00078A5B /* aaa.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,15 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98A5E6862C218D2A00078A5B /* BJ4PracticesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98A5E6872C218D2A00078A5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98A5E6922C218D2A00078A5B /* BJ4PracticesUITestsLaunchTests.swift in Sources */,
-				98A5E6902C218D2A00078A5B /* BJ4PracticesUITests.swift in Sources */,
+				98A5E6A42C21946100078A5B /* BaseJson4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +235,6 @@
 			isa = PBXTargetDependency;
 			target = 98A5E66A2C218D2900078A5B /* BJ4Practices */;
 			targetProxy = 98A5E6822C218D2A00078A5B /* PBXContainerItemProxy */;
-		};
-		98A5E68D2C218D2A00078A5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 98A5E66A2C218D2900078A5B /* BJ4Practices */;
-			targetProxy = 98A5E68C2C218D2A00078A5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -531,42 +473,6 @@
 			};
 			name = Release;
 		};
-		98A5E69C2C218D2A00078A5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NNHJ7Y69AL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Vickyciou.BJ4PracticesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BJ4Practices;
-			};
-			name = Debug;
-		};
-		98A5E69D2C218D2A00078A5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NNHJ7Y69AL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Vickyciou.BJ4PracticesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BJ4Practices;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -597,16 +503,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98A5E69B2C218D2A00078A5B /* Build configuration list for PBXNativeTarget "BJ4PracticesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98A5E69C2C218D2A00078A5B /* Debug */,
-				98A5E69D2C218D2A00078A5B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98A5E6A02C2192EF00078A5B /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98A5E6A12C2192EF00078A5B /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98A5E6A02C2192EF00078A5B /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98A5E6632C218D2900078A5B /* Project object */;
 }

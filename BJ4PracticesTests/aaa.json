@@ -1,0 +1,131 @@
+{
+    "DeviceID": "12345",
+    "SessionID": "abcd-efgh-ijkl",
+    "DeviceInfo": {
+        "UserAgent": "Mozilla/5.0",
+        "OS_Language": "en-US",
+        "APP_Language": "en",
+        "ScreeResolution": "1920x1080"
+    },
+    "TransactionID": "txn-98765",
+    "ProdInfo": {
+        "IsForeign": true,
+        "ProdType": "product-grp",
+        "ProdPrice": 199.99,
+        "ProdName": "Smartphone",
+        "ProdNo": "SP-2023",
+        "ProdDetail": {
+            "NormGroupID": "group-1",
+            "TourID": "tour-1",
+            "HotelInfo": ["Hotel A", "Hotel B"],
+            "RoomType": "Deluxe",
+            "RoomPlan": "Full Board",
+            "RoomPrice": 150.00,
+            "EtkPlan": "Plan A",
+            "EtkType": [
+                {
+                    "TypeName": "Type 1",
+                    "TypeQty": 2
+                }
+            ],
+            "Status": 1
+        },
+        "DiscountPrice": 120.50
+    },
+    "Ptype": "Completion-grp",
+    "SearchInfo": {
+        "Departure": ["NYC"],
+        "Arrival": ["LAX"],
+        "StartDate": "2024-06-01",
+        "EndDate": "2024-06-10",
+        "Days": "10",
+        "SearchKeyword": "a",
+        "IsEnsureGroup": true,
+        "IsSold": false,
+        "Trans": ["Bus", "Train"],
+        "IsDirect": true,
+        "Flight": {
+            "Class": "Economy",
+            "Airline": "AirlineName"
+        },
+        "Member": {
+            "AdultQty": 2,
+            "ChildQty": 1,
+            "Rooms": 1
+        },
+        "CheckIn": "2024-06-01",
+        "CheckOut": "2024-06-10",
+        "Allotment": true,
+        "NoTrans": false,
+        "SeekLcc": true,
+        "DirectFlight": "Yes",
+        "Filter": {
+            "NonStop": true,
+            "MaxPrice": 300,
+            "d": "123"
+        }
+    },
+    "OrderInfo": {
+        "OrderNo": "ORD-12345",
+        "IsForeign": false,
+        "ProdPrice": 299.99,
+        "ProdName": "Laptop",
+        "ProdNo": "LP-2024",
+        "ProdDetail": {
+            "NormGroupID": "group-2",
+            "TourID": "tour-2",
+            "HotelInfo": ["Hotel C", "Hotel D"],
+            "RoomType": "Standard",
+            "RoomPlan": "Bed & Breakfast",
+            "RoomPrice": 200.00,
+            "EtkPlan": "Plan B",
+            "EtkType": [
+                {
+                    "TypeName": "Type 2",
+                    "TypeQty": 1
+                }
+            ]
+        },
+        "Departure": ["SFO"],
+        "Arrival": ["SEA"],
+        "StartDate": "2024-07-01",
+        "EndDate": "2024-07-07",
+        "Days": 7,
+        "Trans": ["Flight", "Taxi"],
+        "IsDirect": false,
+        "Flight": {
+            "Class": "Business",
+            "Airline": "AnotherAirline"
+        },
+        "Member": {
+            "AdultQty": 1,
+            "ChildQty": 0,
+            "Rooms": 1
+        },
+        "CheckIn": "2024-07-01",
+        "CheckOut": "2024-07-07",
+        "SearchKeyword": "Business class flights",
+        "NoTrans": true,
+        "SeekLcc": false,
+        "DirectFlight": "No",
+        "DiscountPrice": 120.50,
+        "Etk": {
+            "EtkPlan": "A",
+            "EtkType": [
+                {
+                    "TypeName": "A",
+                    "TypeQty": 1
+                },
+                {
+                    "TypeName": "B",
+                    "TypeQty": 2
+                }
+            ]
+        }
+    },
+    "UtmSource": "google",
+    "UtmMedium": "cpc",
+    "UtmCampaign": "spring_sale",
+    "UtmContent": "ad_content",
+    "Referer": "https://www.example.com"
+}
